@@ -4,7 +4,7 @@ zfc-image
 How to use Image Captcha with ZFCUser
 
 Assumption:  You have copied zfcuser into your ZF2 project and are not happy with the figlet captcha.  There are a lot of free
-commercial use fonts, like www.fontsquirrel.com as one example.  You should also take a peek at the documentation located
+commercial fonts, like www.fontsquirrel.com as one example.  You should also take a peek at the documentation located
 at http://framework.zend.com/manual/2.1/en/modules/zend.captcha.adapters.html#zend-captcha-image .  This will give you
 an idea of the options for the captcha constructor (remove the "set" or "get").
 

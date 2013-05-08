@@ -16,7 +16,8 @@ an idea of the options for the captcha constructor (remove the "set" or "get").
 6. Now edit your zfcuser.global.php
 7. Next enable captcha by setting: 'use_registration_form_captcha' => true,
 8. Next I commented out:
-9.         'form_captcha_options' => array(
+<pre>
+         'form_captcha_options' => array(
                 'class'   => 'figlet',
                 'options' => array(
                         'wordLen'    => 5,
@@ -24,9 +25,10 @@ an idea of the options for the captcha constructor (remove the "set" or "get").
                         'timeout'    => 300,
                 ),
         ),
+</pre>
 
 Replaced it with:
-
+<pre>
 'form_captcha_options' => array(
         'class'   => 'image',
         'options' => array(
@@ -40,10 +42,10 @@ Replaced it with:
                 'LineNoiseLevel' => '3',
         ),
 ),
-
-10. You will have to adjust the directories to your environment.  Also, experiment with Noise Level settings, these values worked
+</pre>
+9. You will have to adjust the directories to your environment.  Also, experiment with Noise Level settings, these values worked
 pretty good for me.
-11. I did not make any code changes to the Module.php or the Module config.  This is only used on the registration page.
+10. I did not make any code changes to the Module.php or the Module config.  This is only used on the registration page.
 
 I personally like the image CAPTCHA to the RECAPTCHA, and the ZF Commons team did a great job with the module.
 

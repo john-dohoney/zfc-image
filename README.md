@@ -43,9 +43,10 @@ Replaced it with:
         ),
 ),
 </pre>
-9. You will have to adjust the directories to your environment.  Also, experiment with Noise Level settings, these values worked
+You will have to adjust the directories to your environment.  Also, experiment with Noise Level settings, these values worked
 pretty good for me.
-10. I did not make any code changes to the Module.php or the Module config.  This is only used on the registration page.
+
+I did not make any code changes to the Module.php or the Module config.  This is only used on the registration page.
 
 I personally like the image CAPTCHA to the RECAPTCHA, and the ZF Commons team did a great job with the module.
 
